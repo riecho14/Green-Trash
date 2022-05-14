@@ -3,7 +3,7 @@ from datetime import date, time, datetime
 import datetime
 
 # Configuration
-number_of_days      = 366                                           # you can change this           
+number_of_days      = 1                                             # you can change this           
 number_of_commits   = 10                                            # you can change this
 repositories        = "https://github.com/riecho14/Green-Trash.git" # you can change this
 
