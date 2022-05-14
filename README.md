@@ -24,7 +24,7 @@ number_of_days      = 366                                           # you can ch
 number_of_commits   = 10                                            # you can change this
 repositories        = "https://github.com/riecho14/Green-Trash.git" # you can change this
 ```
-7. after the script is already, you can immediately run it and crotzz 💦💦💦.
+7. After the script is already, you can immediately run it and crotzz 💦💦💦.
 
 ## Troubleshooting
 ### No changes after running the script
