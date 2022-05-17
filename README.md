@@ -3,10 +3,10 @@
 > This script doesn't encourage you to cheat. Cheating is bad. But if anybody is judging your professional skills by the graph at your GitHub profile (which caries no value) they deserve to see a rich graph.
 
 ## Before 😶😶😶
-[![before.png](https://i.postimg.cc/Vsnw7nZ6/before.png)](https://postimg.cc/6TWFq2XJ)
+[![before.png](https://raw.githubusercontent.com/riecho14/assets/main/Green%20Trash/before.png?token=GHSAT0AAAAAABUSQIFEJBG2H72NFJ7NOQ6CYUD3XQA)
 
 ## After 💦💦💦
-[![after.png](https://i.postimg.cc/6pT1PN60/after.png)](https://postimg.cc/WdLnDCkF)
+[![after.png](https://raw.githubusercontent.com/riecho14/assets/main/Green%20Trash/after.png?token=GHSAT0AAAAAABUSQIFEZJE6NO56U67O5B6IYUD3W4Q)
 
 ## System requirements
 To be able to execute the script you need to have Python and Git installed.
