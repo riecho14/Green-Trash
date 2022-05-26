@@ -11,7 +11,7 @@ NoD = number_of_days
 ctr = 1
 now = datetime.datetime.now()
 
-f = open("GreenTrash.txt", "w")
+f = open("greentrash.txt", "w")
 os.system("git config user.name")
 os.system("git config user.email")
 os.system("git init")
