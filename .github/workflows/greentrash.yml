@@ -1,0 +1,16 @@
+name: Green Trash
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  greentrash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Green Trash Jobs
+        run: |
+          echo "working"
