@@ -5,12 +5,45 @@ on:
       - main
 
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 7,8,9,10,11 * * *"
 
 jobs:
   greentrash:
     runs-on: ubuntu-latest
     steps:
-      - name: Green Trash Jobs
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Modify trash_update file
         run: |
-          echo "working"
+          d = `date "+%Y-%m-%dT%H:%M:%SZ"`
+          echo $d > trash_update
+
+      - name: Do commit
+        run: |
+          git config --local user.email "riecho14@outlook.com"
+          git config --local user.name "riecho14"
+          git add -A
+
+          arr[0]="GreenTrash(bot): Auto Crotzz 🍆"
+          arr[1]="GreenTrash(bot): Auto Crotzz 💦"
+          arr[2]="GreenTrash(bot): Auto Crotzz 🐒"
+          arr[3]="GreenTrash(bot): Auto Crotzz 👌🏻"
+          arr[4]="GreenTrash(bot): Auto Crotzz 🩱"
+          arr[5]="GreenTrash(bot): Auto Crotzz 👙"
+          arr[6]="GreenTrash(bot): Auto Crotzz 💍"
+          arr[7]="GreenTrash(bot): Auto Crotzz 🤰🏻"
+          arr[8]="GreenTrash(bot): Auto Crotzz 🛌🏻"
+          arr[9]="GreenTrash(bot): Auto Crotzz 🩲"
+
+          rand=$[$RANDOM % ${#arr[@]}]
+          git commit -m "${arr[$rand]}"
+
+      - name: Push Back
+        uses: ad-m/github-push-action@master
+        with:
+          force-with-lease: true
+          directory: "."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
