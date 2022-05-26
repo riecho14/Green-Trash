@@ -18,7 +18,7 @@ To be able to execute the script you need to have Python and Git installed.
 2. Also make sure the Git you install is configured with GitHub
 3. Create an empty Github Repository, if you want to make it private you need to set up your account [to show private contributions](https://help.github.com/en/articles/publicizing-or-hiding-your-private-contributions-on-your-profile) and don't initialize it. This way, GitHub users will see that you contributed something, but they won't be able to see what it is.
 4. Download the [greentrash.py](https://github.com/riecho14/Green-Trash/archive/refs/heads/main.zip) script and open the file in your text editor.
-5. Delete GreenTrash.txt
+5. Delete greentrash.txt
 6. You can customize the script in GreenTrash.py however you want here:
 ```python
 # Configuration
